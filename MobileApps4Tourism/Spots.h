@@ -14,6 +14,4 @@
 @property (nonatomic, copy) NSString *description;
 @property (nonatomic, retain) UIImage *image;
 
-hei hei
-
 @end
