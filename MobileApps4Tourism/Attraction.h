@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Spots : NSObject
+@interface Attraction : NSObject
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *description;

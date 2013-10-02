@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Spots.h"
+#import "Attraction.h"
 
 @interface DetailViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
 @property (nonatomic, retain) IBOutlet UITextView *textView;
-@property (nonatomic, retain) Spots *spot;
+@property (nonatomic, retain) Attraction *attraction;
 
 @end

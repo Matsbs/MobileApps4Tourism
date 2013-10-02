@@ -28,7 +28,7 @@
 		4EA6306E17E9AC6300BD5514 /* MobileApps4TourismTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6306D17E9AC6300BD5514 /* MobileApps4TourismTests.m */; };
 		4EA6307917E9ACE700BD5514 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6307817E9ACE700BD5514 /* MainViewController.m */; };
 		4EA6307C17E9AEEC00BD5514 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6307B17E9AEEC00BD5514 /* DetailViewController.m */; };
-		4EA6307F17E9EA8200BD5514 /* Spots.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6307E17E9EA8200BD5514 /* Spots.m */; };
+		4EA6307F17E9EA8200BD5514 /* Attraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6307E17E9EA8200BD5514 /* Attraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,8 @@
 		4EA6307817E9ACE700BD5514 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4EA6307A17E9AEEC00BD5514 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4EA6307B17E9AEEC00BD5514 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		4EA6307D17E9EA8200BD5514 /* Spots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spots.h; sourceTree = "<group>"; };
-		4EA6307E17E9EA8200BD5514 /* Spots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spots.m; sourceTree = "<group>"; };
+		4EA6307D17E9EA8200BD5514 /* Attraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attraction.h; sourceTree = "<group>"; };
+		4EA6307E17E9EA8200BD5514 /* Attraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 				4EA379C317F07B8200BEF681 /* images */,
 				4EA6305117E9AC6200BD5514 /* MobileApps4TourismAppDelegate.h */,
 				4EA6305217E9AC6200BD5514 /* MobileApps4TourismAppDelegate.m */,
-				4EA6307D17E9EA8200BD5514 /* Spots.h */,
-				4EA6307E17E9EA8200BD5514 /* Spots.m */,
+				4EA6307D17E9EA8200BD5514 /* Attraction.h */,
+				4EA6307E17E9EA8200BD5514 /* Attraction.m */,
 				4EA6307A17E9AEEC00BD5514 /* DetailViewController.h */,
 				4EA6307B17E9AEEC00BD5514 /* DetailViewController.m */,
 				4EA6307717E9ACE700BD5514 /* MainViewController.h */,
@@ -309,7 +309,7 @@
 				4EA6305317E9AC6200BD5514 /* MobileApps4TourismAppDelegate.m in Sources */,
 				4EA6307917E9ACE700BD5514 /* MainViewController.m in Sources */,
 				4EA6307C17E9AEEC00BD5514 /* DetailViewController.m in Sources */,
-				4EA6307F17E9EA8200BD5514 /* Spots.m in Sources */,
+				4EA6307F17E9EA8200BD5514 /* Attraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

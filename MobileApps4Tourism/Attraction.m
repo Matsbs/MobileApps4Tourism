@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Mats Sandvoll. All rights reserved.
 //
 
-#import "Spots.h"
+#import "Attraction.h"
 
-@implementation Spots
+@implementation Attraction
 
 
 @end
