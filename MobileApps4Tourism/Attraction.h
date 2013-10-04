@@ -10,8 +10,8 @@
 
 @interface Attraction : NSObject
 
-@property (nonatomic, copy) NSString *name;
-@property (nonatomic, copy) NSString *description;
+@property (nonatomic, retain) NSString *name;
+@property (nonatomic, retain) NSString *description;
 @property (nonatomic, retain) UIImage *image;
 
 @end
