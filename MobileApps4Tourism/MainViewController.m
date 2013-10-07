@@ -7,8 +7,6 @@
 //
 
 #import "MainViewController.h"
-#import "DetailViewController.h"
-#import "Attraction.h"
 
 @interface MainViewController ()
 

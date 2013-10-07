@@ -7,7 +7,6 @@
 //
 
 #import "DetailViewController.h"
-#import "Attraction.h"
 #import "QuartzCore/QuartzCore.h"
 
 @interface DetailViewController ()

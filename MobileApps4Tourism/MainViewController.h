@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Attraction.h"
+#import "DetailViewController.h"
 
 @interface MainViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 

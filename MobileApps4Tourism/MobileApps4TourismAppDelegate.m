@@ -7,8 +7,6 @@
 //
 
 #import "MobileApps4TourismAppDelegate.h"
-#import "MainViewController.h"
-#import "DetailViewController.h"
 
 @implementation MobileApps4TourismAppDelegate
 
@@ -18,7 +16,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     MainViewController *mainView = [[MainViewController alloc] init];
-   self.navController = [[UINavigationController alloc]initWithRootViewController:mainView];
+    self.navController = [[UINavigationController alloc]initWithRootViewController:mainView];
     //[self.window addSubview:self.navController.view];
     [self.window setRootViewController:self.navController];
     [self.window makeKeyAndVisible];
