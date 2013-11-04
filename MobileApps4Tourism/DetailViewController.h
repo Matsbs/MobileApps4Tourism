@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Attraction.h"
+#import "MapViewController.h"
 
 @interface DetailViewController : UIViewController
 

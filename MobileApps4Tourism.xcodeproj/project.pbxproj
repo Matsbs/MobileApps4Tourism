@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1F83601827DB53004AF722 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F835F1827DB53004AF722 /* MapViewController.m */; };
+		4E1F83621827DEAC004AF722 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F83611827DEAC004AF722 /* MapKit.framework */; };
+		4E1F83641827DEB6004AF722 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1F83631827DEB6004AF722 /* CoreLocation.framework */; };
 		4EA379C917F07B8200BEF681 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA379C417F07B8200BEF681 /* 1.png */; };
 		4EA379CA17F07B8200BEF681 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA379C517F07B8200BEF681 /* 2.png */; };
 		4EA379CB17F07B8200BEF681 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA379C617F07B8200BEF681 /* 3.png */; };
@@ -42,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E1F835E1827DB53004AF722 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4E1F835F1827DB53004AF722 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4E1F83611827DEAC004AF722 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4E1F83631827DEB6004AF722 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4EA379C417F07B8200BEF681 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		4EA379C517F07B8200BEF681 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		4EA379C617F07B8200BEF681 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -79,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1F83641827DEB6004AF722 /* CoreLocation.framework in Frameworks */,
+				4E1F83621827DEAC004AF722 /* MapKit.framework in Frameworks */,
 				4EA6304317E9AC6200BD5514 /* UIKit.framework in Frameworks */,
 				4EA6304517E9AC6200BD5514 /* Foundation.framework in Frameworks */,
 				4EA6304717E9AC6200BD5514 /* CoreGraphics.framework in Frameworks */,
@@ -132,6 +141,8 @@
 		4EA6304117E9AC6200BD5514 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E1F83631827DEB6004AF722 /* CoreLocation.framework */,
+				4E1F83611827DEAC004AF722 /* MapKit.framework */,
 				4EA6304217E9AC6200BD5514 /* UIKit.framework */,
 				4EA6304417E9AC6200BD5514 /* Foundation.framework */,
 				4EA6304617E9AC6200BD5514 /* CoreGraphics.framework */,
@@ -150,6 +161,8 @@
 				4EA6307E17E9EA8200BD5514 /* Attraction.m */,
 				4EA6307A17E9AEEC00BD5514 /* DetailViewController.h */,
 				4EA6307B17E9AEEC00BD5514 /* DetailViewController.m */,
+				4E1F835E1827DB53004AF722 /* MapViewController.h */,
+				4E1F835F1827DB53004AF722 /* MapViewController.m */,
 				4EA6307717E9ACE700BD5514 /* MainViewController.h */,
 				4EA6307817E9ACE700BD5514 /* MainViewController.m */,
 				4EA6304917E9AC6200BD5514 /* Supporting Files */,
@@ -238,6 +251,11 @@
 				CLASSPREFIX = MobileApps4Tourism;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Mats Sandvoll";
+				TargetAttributes = {
+					4EA6303E17E9AC6200BD5514 = {
+						DevelopmentTeam = 75WP5Y65NV;
+					};
+				};
 			};
 			buildConfigurationList = 4EA6303A17E9AC6200BD5514 /* Build configuration list for PBXProject "MobileApps4Tourism" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -308,6 +326,7 @@
 				4EA6304F17E9AC6200BD5514 /* main.m in Sources */,
 				4EA6305317E9AC6200BD5514 /* MobileApps4TourismAppDelegate.m in Sources */,
 				4EA6307917E9ACE700BD5514 /* MainViewController.m in Sources */,
+				4E1F83601827DB53004AF722 /* MapViewController.m in Sources */,
 				4EA6307C17E9AEEC00BD5514 /* DetailViewController.m in Sources */,
 				4EA6307F17E9EA8200BD5514 /* Attraction.m in Sources */,
 			);
@@ -410,9 +429,11 @@
 		4EA6307217E9AC6300BD5514 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileApps4Tourism/MobileApps4Tourism-Prefix.pch";
 				INFOPLIST_FILE = "MobileApps4Tourism/MobileApps4Tourism-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,9 +442,11 @@
 		4EA6307317E9AC6300BD5514 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobileApps4Tourism/MobileApps4Tourism-Prefix.pch";
 				INFOPLIST_FILE = "MobileApps4Tourism/MobileApps4Tourism-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -38,13 +38,20 @@
     self.imageView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.imageView.layer.borderWidth = 1.0;
     
-    self.textView = [[UITextView alloc] initWithFrame:CGRectMake(30, 250, 260, 200)];
+    self.textView = [[UITextView alloc] initWithFrame:CGRectMake(30, 300, 260, 200)];
     self.textView.text = self.attraction.description;
     [self.view addSubview:self.textView];
    
     self.textView.editable = NO;
     self.textView.scrollEnabled = YES;
     self.textView.font = [UIFont fontWithName:@"Helvetica" size:14];
+    
+    UIBarButtonItem *newButton = [[UIBarButtonItem alloc] initWithTitle:@"Map" style:UIBarButtonItemStylePlain target:self action:@selector(mapClicked:)] ;
+    self.navigationItem.rightBarButtonItem = newButton;
+}
+-(IBAction) mapClicked:(id)sender{
+    MapViewController *mapView = [[MapViewController alloc] init];
+    [self.navigationController pushViewController:mapView animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
